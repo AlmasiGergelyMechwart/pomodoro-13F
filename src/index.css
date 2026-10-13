@@ -1,3 +1,8 @@
-:root{
-  
+@import "tailwindcss";
+
+html, body, #root {
+  min-width: 100vw;
+  min-height: 100vh;
+  height: 0;
+  width: 0;
 }
